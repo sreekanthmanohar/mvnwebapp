@@ -20,14 +20,13 @@
     <artifactId>javax.servlet-api</artifactId>
     <version>3.0.1</version>
 	</dependency>
-    
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.2</version>
+   </plugin>
     
   </dependencies>
-<plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.2</version>
-</plugin>
   <build>
     <finalName>mvnwebapp</finalName>
   </build>
